@@ -1,26 +1,43 @@
 @import "tailwindcss";
 
+/* ── Aeonik font ── */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/Aeonik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/Aeonik-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ── Snap Finance brand tokens ── */
+@theme inline {
+  /* Colors */
+  --color-snap-green:   #1b844a;
+  --color-snap-green-light: #22a05a;
+  --color-snap-blue:    #3d5ccf;
+  --color-snap-dark:    #353849;
+  --color-snap-gray:    #6b7280;
+  --color-snap-cream:   #f7f7f5;
+  --color-snap-white:   #ffffff;
+
+  /* Typography */
+  --font-aeonik: 'Aeonik', 'Inter', sans-serif;
+  --font-sans:   'Aeonik', 'Inter', sans-serif;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #353849;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-aeonik);
+  -webkit-font-smoothing: antialiased;
 }
