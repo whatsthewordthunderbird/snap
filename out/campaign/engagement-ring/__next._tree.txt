@@ -1,0 +1,8 @@
+:HL["/_next/static/chunks/0iaunhkvl4i0s.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.0.q-h669a_dqa.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.16t1db8_9y2o~.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/images/snap_instagram_logo.jpg","image"]
+:HL["/images/engagement_main.png","image"]
+:HL["/images/couple_ring_shopping.png","image"]
+:HL["/images/diamond_ring.webp","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"campaign","param":null,"prefetchHints":0,"slots":{"children":{"name":"engagement-ring","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"F9U5ExDMGOuL5vZTsdWnF"}
