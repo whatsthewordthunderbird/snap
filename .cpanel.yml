@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - source /home/pettywit/nodevenv/repositories/snap/24/bin/activate && cd /home/pettywit/repositories/snap && npm ci && npm run build
-    - /bin/cp -R /home/pettywit/repositories/snap/out/* /home/pettywit/public_html/
+    - "source /home/pettywit/nodevenv/repositories/snap/24/bin/activate && cd /home/pettywit/repositories/snap && npm ci && npm run build"
+    - "/bin/cp -R /home/pettywit/repositories/snap/out/* /home/pettywit/public_html/"
