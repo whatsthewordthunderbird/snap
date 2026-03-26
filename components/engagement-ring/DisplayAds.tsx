@@ -22,8 +22,9 @@ function Leaderboard() {
   return (
     <div>
       <p className="text-xs text-gray-400 mb-2 font-bold tracking-widest uppercase">728 × 90 — Leaderboard</p>
+      <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
       <div style={{
-        width: '100%', maxWidth: 728, height: 90,
+        width: 728, minWidth: 728, height: 90,
         background: `linear-gradient(135deg, ${DARK} 0%, #1a0d2e 60%, #0d0a1a 100%)`,
         borderRadius: 8, overflow: 'hidden', display: 'flex', alignItems: 'center',
         justifyContent: 'space-between', padding: '0 24px', position: 'relative',
@@ -58,6 +59,7 @@ function Leaderboard() {
         </div>
         {/* decorative circle */}
         <div style={{ position: 'absolute', right: -30, top: -30, width: 100, height: 100, borderRadius: '50%', border: `1px solid ${GOLD}22` }} />
+      </div>
       </div>
     </div>
   )
