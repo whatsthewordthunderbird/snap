@@ -16,6 +16,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Peter Anderson · Digital Design Portfolio",
   description: "Campaign design portfolio featuring digital advertising, social media, email, and on-site placements for Snap Finance.",
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", rel: "shortcut icon" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     title: "Peter Anderson · Digital Design Portfolio",
     description: "Campaign design portfolio featuring digital advertising, social media, email, and on-site placements for Snap Finance.",
