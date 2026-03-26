@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pettywit/public_html/
+    - /bin/find $DEPLOYPATH -mindepth 1 -delete
     - /bin/cp -R out/* $DEPLOYPATH
