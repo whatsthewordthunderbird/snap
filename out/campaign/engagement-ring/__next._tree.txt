@@ -5,4 +5,4 @@
 :HL["/images/engagement_main.png","image"]
 :HL["/images/couple_ring_shopping.png","image"]
 :HL["/images/diamond_ring.webp","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"campaign","param":null,"prefetchHints":0,"slots":{"children":{"name":"engagement-ring","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"F9U5ExDMGOuL5vZTsdWnF"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"campaign","param":null,"prefetchHints":0,"slots":{"children":{"name":"engagement-ring","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"DkNXPIBDWU6vz8xK-EGKp"}
