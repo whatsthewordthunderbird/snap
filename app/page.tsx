@@ -30,7 +30,7 @@ export default function Home() {
           Modular Campaign<br />Design Systems
         </h1>
         <p className="text-[#6b7280] text-lg leading-relaxed max-w-2xl mb-8">
-          Two targeted campaigns showing how promotional creative scales across
+          Three targeted campaigns showing how promotional creative scales across
           email, paid media, social, and on-site placements — built around
           Snap Finance's audience and brand.
         </p>
